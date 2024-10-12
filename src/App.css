@@ -1,0 +1,115 @@
+
+/* General App Styling */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Home Section Styling */
+.container {
+  margin-top: 60px; /* To adjust for fixed navbar */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center; /* Align image and text in the center vertically */
+}
+
+.hod {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px; /* Space between the image and the text */
+}
+
+.info {
+  text-align: left;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 24px;
+  color:#f4f4f4;
+
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+/* About Section Styling */
+.about-section {
+  padding: 50px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+/* Contact Section Styling */
+.contact-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.contact-section h2 {
+  color:#333;
+
+}
+.contact-section p {
+  color: #333;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
